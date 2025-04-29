@@ -22,27 +22,27 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 **Architecture**
 
-**-Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 → 512 filters.
+- **Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 → 512 filters.
 
-**-Spatial Attention:**
+- **Spatial Attention:**
 
-  -Two spatial attention blocks early in the network to help the model focus on informative regions in the image.
-  -Two spatial attention blocks applied again after deep feature extraction to refine focus.
-  -Uses varying kernel sizes (9 and 3) to capture both global and local spatial dependencies.
+  - Two spatial attention blocks early in the network to help the model focus on informative regions in the image.
+  - Two spatial attention blocks applied again after deep feature extraction to refine focus.
+  - Uses varying kernel sizes (9 and 3) to capture both global and local spatial dependencies.
   
-**-Regularization and Normalization:**
+- **Regularization and Normalization:**
 
-  -Dropout after each block (progressively increasing)
-  -BatchNormalization throughout the network
-  -L2 kernel regularization to reduce overfitting
+  - Dropout after each block (progressively increasing)
+  - BatchNormalization throughout the network
+  - L2 kernel regularization to reduce overfitting
   
-**-Pooling:**
-  -MaxPooling2D after each convolutional block to reduce spatial dimensions
-  -GlobalAveragePooling2D before fully connected layers
+- **Pooling:**
+  - MaxPooling2D after each convolutional block to reduce spatial dimensions
+  - GlobalAveragePooling2D before fully connected layers
   
-**-Fully Connected Layers:**
-  -Dense layer with 256 units, followed by Dropout and BatchNormalization
-  -Final output layer: 1 unit with sigmoid activation (for binary classification)
+- **Fully Connected Layers:**
+  - Dense layer with 256 units, followed by Dropout and BatchNormalization
+  - Final output layer: 1 unit with sigmoid activation (for binary classification)
 
 
 
