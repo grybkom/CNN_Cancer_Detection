@@ -1,11 +1,11 @@
 # CNN for Cancer Detection
-Binary image classification of metastatic cancer in tissue samples using a convolutional neural network.
+Binary image classification of metastatic cancer in tissue samples using a convolutional neural network (CNN).
 
 ---
 
 **Background**
 
-The aim of this work is to build a convolutional neural network (CNN) that performs binary image classification of metastatic cancer in tissue samples. According to the National Cancer Institute (2024) in the United States alone it is estimated that over 2 million new cases of cancer will be diagnosed and over 600,000 people will die from cancer. The World Health Organization (2023) emphasizes the importance of early cancer diagnosis in fighting the disease. Early detection increases the success rate of treatments, deceases the severity of side effects from treatment, and lowers cost of care (World Health Organization, 2023). Given the prevalence of cancer and the importance of early detection in its treatment, a model that can detect cancer in tissue images could help improve the outcome of those suffering from the disease. 
+The aim of this work is to build a CNN that performs binary image classification of metastatic cancer in tissue samples. According to the National Cancer Institute (2024) in the United States alone it is estimated that over 2 million new cases of cancer will be diagnosed and over 600,000 people will die from cancer. The World Health Organization (2023) emphasizes the importance of early cancer diagnosis in fighting the disease. Early detection increases the success rate of treatments, deceases the severity of side effects from treatment, and lowers cost of care (World Health Organization, 2023). Given the prevalence of cancer and the importance of early detection in its treatment, a model that can detect cancer in tissue images could help improve the outcome of those suffering from the disease. 
 
 **Data & Methodology**
 
