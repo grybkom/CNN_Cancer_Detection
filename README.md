@@ -49,7 +49,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 ### Training Strategy
 
-- **Optimizer:** Adam (learning rate initialized at 0.0005)
+- **Optimizer:** Adam with a learning rate initialized at 0.0002
 
 - **Loss Function:** Binary Cross-Entropy 
 
