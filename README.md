@@ -1,6 +1,5 @@
 # CNN for Cancer Detection
 Binary image classification of metastatic cancer in tissue samples using a convolutional neural network (CNN).
-
 ---
 
 ## Background
