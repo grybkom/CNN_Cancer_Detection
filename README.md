@@ -19,6 +19,8 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 - **Languge:** Python
   - [TensorFlow](https://www.tensorflow.org/)
+ 
+- **Hardware**: Dual NVIDIA T4 GPUs (T4 x2 accelerator)
 
 **CNN Architecture**
 
