@@ -15,7 +15,7 @@ The aim of this work is to build a CNN that performs binary image classification
 Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle.com/competitions/histopathologic-cancer-detection
 - This data set contains images of metastatic cancer. The National Cancer Institute (2024) defines metastasis as the spread of cancer cells from the place where they first formed to other parts of the body. 
 - This is a binary classification task with a positive label indicating the center 32x32px region of an image contains at least one pixel of tumor tissue. 
-- There are just over 220,000 training images of size 96X96X3, with approximately 60% of the images being of cancer free tissue and approximately 40% of the images containing cancerous tissue. 
+- There are just over 220,000 training images of size 96x96x3, with approximately 60% of the images being of cancer free tissue and approximately 40% of the images containing cancerous tissue. 
 
 ![training_data_distribution](https://github.com/user-attachments/assets/aa273beb-0c52-4cb7-8cb4-5aa75175d5cd)
 
