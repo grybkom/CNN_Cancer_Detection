@@ -25,13 +25,11 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 → 512 filters.
 
 - **Spatial Attention:**
-
   - Two spatial attention blocks early in the network to help the model focus on informative regions in the image.
   - Two spatial attention blocks applied again after deep feature extraction to refine focus.
   - Uses varying kernel sizes of 9 and 3 to capture both global and local spatial dependencies.
   
 - **Regularization and Normalization:**
-
   - Dropout after each block (progressively increasing)
   - BatchNormalization throughout the network
   - L2 kernel regularization to reduce overfitting
