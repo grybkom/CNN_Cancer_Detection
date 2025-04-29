@@ -28,7 +28,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
   - Two spatial attention blocks early in the network to help the model focus on informative regions in the image.
   - Two spatial attention blocks applied again after deep feature extraction to refine focus.
-  - Uses varying kernel sizes (9 and 3) to capture both global and local spatial dependencies.
+  - Uses varying kernel sizes of 9 and 3 to capture both global and local spatial dependencies.
   
 - **Regularization and Normalization:**
 
@@ -38,9 +38,9 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
   
 - **Pooling:**
   - MaxPooling2D after each convolutional block to reduce spatial dimensions
-  - GlobalAveragePooling2D before fully connected layers
+  - GlobalAveragePooling2D before fully connected layer
   
-- **Fully Connected Layers:**
+- **Fully Connected Layer:**
   - Dense layer with 256 units, followed by Dropout and BatchNormalization
   - Final output layer: 1 unit with sigmoid activation (for binary classification)
 
