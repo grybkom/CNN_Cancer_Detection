@@ -45,9 +45,10 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 **Training Strategy**
 
 -**Optimizer:** Adam (learning rate initialized at 0.0005)
+
 -**Loss Function:** Binary Cross-Entropy 
--**Learning Rate Scheduler:**
-A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help the model converge more smoothly and avoid oscillations.
+
+-**Learning Rate Scheduler:** A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help the model converge more smoothly and avoid oscillations.
 
 
 **References**
