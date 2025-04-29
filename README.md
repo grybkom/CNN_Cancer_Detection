@@ -20,7 +20,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Languge:** Python
   - [TensorFlow](https://www.tensorflow.org/)
 
-**Architecture**
+**CNN Architecture**
 
 - **Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 → 512 filters.
 
@@ -42,7 +42,12 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
   - Dense layer with 256 units, followed by Dropout and BatchNormalization
   - Final output layer: 1 unit with sigmoid activation (for binary classification)
 
+**Training Strategy**
 
+-**Optimizer:** Adam (learning rate initialized at 0.0005)
+-**Loss Function:** Binary Cross-Entropy 
+-**Learning Rate Scheduler:**
+A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help the model converge more smoothly and avoid oscillations.
 
 
 **References**
