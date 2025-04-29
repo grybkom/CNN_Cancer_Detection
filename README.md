@@ -20,7 +20,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Languge:** Python
   - [TensorFlow](https://www.tensorflow.org/)
  
-- **Hardware**: Dual NVIDIA T4 GPUs (T4 x2 accelerator)
+- **Hardware**: Dual NVIDIA T4 GPUs T4 x2 accelerator (ran on Kaggle's platform)
 
 **CNN Architecture**
 
@@ -42,7 +42,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
   
 - **Fully Connected Layer:**
   - Dense layer with 256 units, followed by Dropout and BatchNormalization
-  - Final output layer: 1 unit with sigmoid activation (for binary classification)
+  - Final output layer: 1 unit with sigmoid activation for binary classification
 
 **Training Strategy**
 
