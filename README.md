@@ -3,13 +3,13 @@ Binary image classification of metastatic cancer in tissue samples using a convo
 
 ---
 
-**Background**
+## Background
 
 The aim of this work is to build a CNN that performs binary image classification of metastatic cancer in tissue samples. According to the National Cancer Institute (2024) in the United States alone it is estimated that over 2 million new cases of cancer will be diagnosed and over 600,000 people will die from cancer. The World Health Organization (2023) emphasizes the importance of early cancer diagnosis in fighting the disease. Early detection increases the success rate of treatments, deceases the severity of side effects from treatment, and lowers cost of care (World Health Organization, 2023). Given the prevalence of cancer and the importance of early detection in its treatment, a model that can detect cancer in tissue images could help improve the outcome of those suffering from the disease. 
 
 ---
 
-**Data & Methodology**
+## Data & Methodology
 
 - The data used for this work is available at Kaggle, Histopathologic Cancer Detection:
 Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle.com/competitions/histopathologic-cancer-detection
@@ -19,12 +19,12 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 ![training_data_distribution](https://github.com/user-attachments/assets/aa273beb-0c52-4cb7-8cb4-5aa75175d5cd)
 
-- **Languge:** Python
+### Languge: Python
   - [TensorFlow](https://www.tensorflow.org/)
  
 - **Hardware**: Dual NVIDIA T4 GPUs T4 x2 accelerator (ran on Kaggle's platform)
 
-**CNN Architecture**
+### CNN Architecture
 
 - **Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 → 512 filters.
 
@@ -46,7 +46,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
   - Dense layer with 256 units, followed by Dropout and BatchNormalization
   - Final output layer: 1 unit with sigmoid activation for binary classification
 
-**Training Strategy**
+### Training Strategy
 
 - **Optimizer:** Adam (learning rate initialized at 0.0005)
 
@@ -55,7 +55,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Learning Rate Scheduler:** A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help with model stability.
 
 
-**References**
+## References
 
 Cancer statistics. (2024, May 9). National Cancer Institute. https://www.cancer.gov/about-cancer/understanding/statistics
 
@@ -64,6 +64,6 @@ Promoting cancer early diagnosis. (2023, October 27). World Health Organization.
 Verma, M. (2024, May 17). Binary classification using Convolution Neural Network (CNN) model. Medium. https://medium.com/@mayankverma05032001/binary-classification-using-convolution-neural-network-cnn-model-6e35cdf5bdbb
 
 
-**Author:**
+## Author
 
 Michael Grybko - GitHub username: grybkom
