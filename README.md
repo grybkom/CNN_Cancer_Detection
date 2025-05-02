@@ -26,7 +26,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 ### CNN Architecture
 
-- **Convolutional Layers:** Five convolutional blocks with increasing depth: 64 → 128 → 256 → 512 filters.
+- **Convolutional Layers:** Four convolutional blocks with increasing depth: 64 → 128 → 256 → 512 filters.
 
 - **Spatial Attention:**
   - Two spatial attention blocks early in the network to help the model focus on informative regions in the image.
