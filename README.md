@@ -60,7 +60,7 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 ## To Do
 
-- Trian the model with an larger batch size, increase from 16 to 32. 
+- Trian the model with a larger batch size, increase from 16 to 32. 
 
 - Assess the model’s performance with different kernel sizes in the spatial attention layers.
 
