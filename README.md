@@ -55,8 +55,8 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Learning Rate Scheduler:** A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help with model stability.
 
 ## Results
-![cnn_training_results](https://github.com/user-attachments/assets/fb9e19f3-bd2f-45fb-92de-7a84b1e86b50)
-![cnn_training_confusion](https://github.com/user-attachments/assets/e7cc14d0-06fa-4345-9021-ceaa04dea090)
+![cnn_training_results](https://github.com/user-attachments/assets/9c831fad-f9e7-440a-b1d2-3837665f924c)
+![cnn_training_confusion](https://github.com/user-attachments/assets/d24489b8-a9ef-4b9e-a98a-d6361b282120)
 
 
 
