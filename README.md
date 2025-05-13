@@ -58,7 +58,13 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 ![cnn_training_results](https://github.com/user-attachments/assets/9c831fad-f9e7-440a-b1d2-3837665f924c)
 ![cnn_training_confusion](https://github.com/user-attachments/assets/d24489b8-a9ef-4b9e-a98a-d6361b282120)
 
+## To Do
 
+- Trian the model with an larger batch size, increase from 16 to 32. 
+
+- Assess the model’s performance with different kernel sizes in the spatial attention layers.
+
+- The current notebook includes a gaussian smoothing block, which will slightly blur the images while the edges are maintained. The current versions do not include this step, it is commented out in the data generator. The network has had trouble learning when smoothing has been applied to the images. However, this has not been attempted with the most recent versions of the network. 
 
 ## References
 
