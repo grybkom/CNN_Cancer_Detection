@@ -55,12 +55,13 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 - **Learning Rate Scheduler:** A scheduler was used ([ReduceLROnPlateau]( https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.ReduceLROnPlateau.html)) to reduce the learning rate during training to help with model stability.
 
 ## Results
-![cnn_training_results](https://github.com/user-attachments/assets/9c831fad-f9e7-440a-b1d2-3837665f924c)
-![cnn_training_confusion](https://github.com/user-attachments/assets/d24489b8-a9ef-4b9e-a98a-d6361b282120)
+![cnn_training_results](https://github.com/user-attachments/assets/5f59d829-49f4-4421-93d9-683e590b05c9)
+![cnn_training_confusion](https://github.com/user-attachments/assets/74ad841f-39ca-4e12-89ff-432c9bbd5e6b)
+
 
 ## To Do
 
-- Trian the model with a larger batch size, increase from 16 to 32. 
+- Trian the model with a larger batch size, increase from 32 to 64. The model's performance imporoved when the batch size was increased from 16 to 32. 
 
 - Assess the model’s performance with different kernel sizes in the spatial attention layers.
 
