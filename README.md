@@ -65,11 +65,11 @@ Will Cukierski. (2018). Histopathologic Cancer Detection. Kaggle. https://kaggle
 
 ## To Do
 
-- Trian the model with a larger batch size, increase from 32 to 64. The model's performance imporoved when the batch size was increased from 16 to 32. 
+- [ ] Trian the model with a larger batch size, increase from 32 to 64. The model's performance imporoved when the batch size was increased from 16 to 32. 
 
-- Assess the model’s performance with different kernel sizes in the spatial attention layers.
+- [ ] Assess the model’s performance with different kernel sizes in the spatial attention layers.
 
-- The current notebook includes a gaussian smoothing block, which will slightly blur the images while the edges are maintained. The current versions do not include this step, it is commented out in the data generator. The network has had trouble learning when smoothing has been applied to the images. However, this has not been attempted with the most recent versions of the network. 
+- [ ] The current notebook includes a gaussian smoothing block, which will slightly blur the images while the edges are maintained. The current versions do not include this step, it is commented out in the data generator. The network has had trouble learning when smoothing has been applied to the images. However, this has not been attempted with the most recent versions of the network. 
 
 ## References
 
